@@ -345,11 +345,10 @@ ul, ol {
   color: #2b599c;
   font-size: 36px;
   @include large-phone {
-    margin-left: -112px;
+    margin-left: 0;
     text-align: center;
   }
   @include phone {
-    margin-left: -10px;
     text-align: center;
   }
 }
